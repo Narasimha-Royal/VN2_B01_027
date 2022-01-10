@@ -1,0 +1,23 @@
+create table mark_list(
+id serial primary key,
+student_name varchar(30),
+subject_name varchar(25),
+marks int
+)
+
+insert into mark_list(student_name,subject_name,marks)
+values ('charan','telugu',24),
+('lokesh','english',23),
+('shiva','maths',22),
+('sai','science',23),
+('bhaskar','social',24)
+
+select * from mark_list
+drop table mark_list
+
+select * from mark_list
+where id in (select id from mark_list where marks>23);
+
+update mark_list
+set marks = marks * 0.5
+where id in (select id from mark_list where id >3);

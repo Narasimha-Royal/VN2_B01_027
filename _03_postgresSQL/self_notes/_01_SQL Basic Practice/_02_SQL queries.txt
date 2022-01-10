@@ -1,0 +1,20 @@
+create table car_details(
+car_name varchar(35),
+car_price integer,
+car_owner varchar(30),
+car_type varchar(25)
+);
+insert into car_details values('suzuki',400000,'rajesh','petrol')
+insert into car_details values('Bolero',600000,'ramesh','diesel')
+insert into car_details values('safari',500000,'ramu','petrol')
+insert into car_details values('tubor-r',900000,'raju','diesel')
+insert into car_details values('hurcan',1000000,'balu','petrol')
+insert into car_details values('Chiron',1500000,'lokesh','diesel')
+delete from car_details where car_name='suzuki';
+alter table car_details add column car_company varchar(30);
+select car_company from car_details
+update car_details set car_company='mahindra' where car_price=600000;
+update car_details set car_company='Bentley' where car_owner='raju';
+update car_details set car_company='Tata'  where car_name='safari';
+update car_details set car_company='Bugatti' where car_name='Chiron';
+select * from car_details

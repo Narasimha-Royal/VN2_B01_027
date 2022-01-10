@@ -1,0 +1,61 @@
+What is Decison Making ?
+
+	Decison Making statements decides the output or result of a program.
+
+
+Types of Decison Making statements:
+
+1. If Statement
+2. If - Else Statement
+3. Nested If Statement
+4. If - Elif Ladder
+5. Short - Hand If-Else statement
+6. Short - Hanf If Statement
+
+
+
+------1. If Statement--------
+
+If statement is the simplest decison making statement in python programming.
+It is used decide weather a particular statement ir True or not.
+If the condition holds true , the statement inside the "If" will execute else it will not execute.
+
+Syntax for If Statement :
+
+a = 50
+if a == 50 :
+	print("a is 50")
+
+
+------2. If Else Statement-------
+
+When the condition in If block is false then we use If-Else Statement.
+When the condition in If block is True , then If statement program will execute.
+When the condition in If block is False, then Else statement will execute.
+
+Syntax for If-Else Statement :
+	
+b = 40
+c = 30
+if b == c :
+	print("b and c are equal")
+else :
+	print("b and c are not equal")
+
+
+--------3. If Elif Ladder----------
+
+When we have multiple conditions to check and execute according to the given condition, then we use If Elif Ladder.
+
+Syntax for If-Elif Ladder  :
+
+a = 10
+
+if a > 0:
+	print("positive number")
+
+elif a < 0 :
+	print("negative number")
+else :
+	print("It is zero")
+	

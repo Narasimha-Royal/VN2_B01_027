@@ -1,0 +1,4 @@
+String :
+
+	A String is sequence of alphabets, characters, numbers, words.
+	A String can be created using single quotes or bouble quotes or even triple quotes.

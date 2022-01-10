@@ -1,0 +1,26 @@
+create table student(
+stu_id int primary key generated always as identity,
+stu_name varchar(30)
+);
+insert into student (stu_name)
+values ('lokesh'),
+('charan'),
+('sai')
+select * from student
+drop table student
+
+create table course(
+cousre_id int primary key generated always as identity,
+stu_id int,
+course varchar(30),
+course_name varchar(30),
+constraint fk_student
+foreign key (stu_id)
+references student(stu_id)
+);
+
+insert into course (stu_id,course,course_name)
+values (2,'Engineering','Mechanical'),
+(2,'Engineering','CSE'),
+(1,'Engineering','ECE')
+select * from course

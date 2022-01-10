@@ -1,0 +1,52 @@
+create table workers (
+id serial primary key,
+fname varchar(30),
+lname varchar(25),
+age int,
+salary int
+);
+
+insert into workers (fname,lname,age,salary)
+values ('Ken','Sanchez',22,15000),
+('Terri','Duffy',21,14000),
+('Robert','Tamb',23,16000),
+('Rob','Walt',22,17000),
+('Gail','Erick',21,15000),
+('Joseph','Berg',25,20000),
+('Gigi','Mathew',24,19000),
+('Michale','Raheem',21,16000)
+
+select * from workers
+
+create table branch (
+id serial primary key,
+branch_name varchar(30),
+branch_id int
+);
+
+insert into branch (branch_name,branch_id)
+values ('Designer',1),
+('Web developer',2),
+('System Engineer',3),
+('Tester',5),
+('Manager',6),
+('Excutive',7),
+('Director',8),
+('Finance',9)
+
+select * from branch
+
+select w.id,w.fname,w.salary,b.branch_name 
+from workers as w, branch as b
+where w.id=b.branch_id
+
+select w.id as worker_id,w.fname,w.salary as worker_salary,b.branch_name
+from workers as w, branch as b
+where w.id=b.branch_id
+
+select w.fname as f, w.lname as l,w.salary as s ,b.branch_name as bn
+from workers as w , branch as b
+where w.id=b.branch_id
+
+select fname as f,lname as l,branch_name as bn from workers as w, branch as b
+where w.id=b.branch_id

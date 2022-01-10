@@ -1,0 +1,24 @@
+List :
+
+	Lists are used to store multiple items in a single variable.
+	List is mutable and ordered.
+
+List properties:
+
+
+1. List will allow both homogeneous and heterogenous data
+2. List allows duplicate elements
+3. Insertion order maintains
+4. Follows indexing mechanism while storing elements
+5. List is mutable
+
+
+List Builtin functions:
+
+append, insert, extend   : UPDATE
+pop,  remove             : DELETE 
+count                    : RETRIEVE
+index                    : RETRIEVE
+reverse                  : UPDATE 
+sort                     : UPDATE
+copy                     : CREATE

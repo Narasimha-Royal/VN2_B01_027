@@ -1,0 +1,25 @@
+create table students(
+fname varchar(30)not null,
+lname varchar(25),
+studentid serial primary key
+);
+insert into students(fname,lname)
+values ('charan','tej'),
+('sai','kumar'),
+('mohan','krishna')
+insert into students (studentid,fname,lname)
+values (7,'prasad','rao'),
+(8,'noor','bhasha')
+insert into students (fname,lname)
+values ('shiva','naik'),
+('bhanu','prakash'),
+('ravi','teja')
+insert into students (fname,lname)
+values('dinesh','yadav')
+insert into students (studentid,fname,lname)
+values(6,'ramesh','kumar')
+insert into students (lname)
+values ('teja')
+
+select * from students
+drop table students

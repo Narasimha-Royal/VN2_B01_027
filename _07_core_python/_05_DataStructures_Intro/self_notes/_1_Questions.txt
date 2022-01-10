@@ -1,0 +1,30 @@
+
+
+				   ------------------Data Structures--------------
+
+
+List:
+
+	Lists are used to store multiple items in single variable.
+	Lists are mutable. In Lists we can add, remove elements.
+	Lists are created using square brackets.
+	List itmes are ordered, changeble and allow duplicate values.
+
+Tuple:
+
+	Tuples are used to store multiple items in single variable.
+	Tuples are immutable. In Tuples we can't add , remove elements.
+	Tuples are created using round brackets.
+	Tuple items are ordered, unchangeble and allow duplicate values.
+
+Sets:
+
+	Sets are used to store multiple items in single variable.
+	Sets are created using using curly brackets.
+	Set items are unchangeble, unordered and "Unindexed".
+
+Dictionaries:
+
+	Dictionaries are used to store data values in key:Value pairs.
+	Dictionaries are crated using curly brackets, and have keys and values.
+	Dictionary items are orderd, changeble and does not allow duplicates.

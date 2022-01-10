@@ -1,0 +1,25 @@
+create table studycourses(
+coursename varchar(30),
+coursecost int
+)
+insert into studycourses (coursename,coursecost)
+values ('python',10),
+('html',15),
+('css',13),
+('sql',12),
+('dbms',14),
+('python',16),
+('java',11),
+('script',15)
+select * from studycourses
+
+create or replace function coursecost ()
+returns integer as $totalcoursecost$
+declare 
+totalcoursecost integer ;
+begin
+	select sum(coursecost) into totalcoursecost from studycourses;
+return totalcoursecost ;
+end;
+$totalcoursecost$ language plpgsql
+select coursecost()

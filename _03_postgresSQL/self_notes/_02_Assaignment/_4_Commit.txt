@@ -1,0 +1,21 @@
+create table salary_details(
+emp_id serial primary key,
+emp_name varchar(30),
+emp_age int,
+emp_salary int
+)
+
+insert into salary_details (emp_name,emp_age,emp_salary)
+values ('mike',35,15000),
+('jimmy',32,17000),
+('shaun',33,16000),
+('ben',32,15000),
+('john',31,14000),
+('michale',34,16000),
+('jay',33,13000)
+
+select * from salary_details
+
+begin;
+delete from salary_details where emp_age='32'
+commit 

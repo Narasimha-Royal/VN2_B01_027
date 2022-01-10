@@ -1,0 +1,50 @@
+<html>
+<head><title>Elements</title>
+</head>
+<body>
+<h4>Drop down list with pre-selected with size of 3 and multiple selected</h4>
+<form action="submit.html" method="post">
+<lable for="mobiles" id="mobiles">Select Mobile(s):</label>
+<select id="mobiles" name="mobile" size="3" multiple>
+<option value="nokia">Nokia</option>
+<option value="apple">Apple</option>
+<option value="oneplus">OnePlus</option>
+<option value="samsung">Samsung</option>
+<option value="vivo" selected>Vivo</option>
+<option value="oppo">Oppo</option>
+<option value="realme">Real me</option>
+<option value="micromax">Micromax</option>
+<option value="redmi">Redmi</option>
+</select><br><br>
+<input type="submit">
+</form>
+<h2>Fieldset</h2>
+<form action="submit.html" method="post" target=_blank">
+<fieldset>
+<legend>Personal Details:</legend>
+<label for="fname">First Name:</lable><br>
+<input type="text" id="fname" name="fname" value=""><br>
+<label for="lname">Last Name:</lable><br>
+<input type="text" id="lname" name="lname" value=""><br>
+<lable for="number">Mobile Number:</labe><br>
+<input type="text" id="number" name="number" value=""><br>
+<lable for="email">Email ID</lablr><br>
+<input type="text" id="email" name="email" value=""><br><br>
+<input type="submit" value="Submit Details">
+</fieldset>
+</form>
+<h2>DataList</h2>
+<p>Select a Drink</p>
+<form action="submit.html" method="post">
+<input list="drinks">
+<datalist id="drinks">
+<option value="Thums Up">
+<option value="Sprite">
+<option value="Coca Cola">
+<option value="Maaza">
+<option value="Pepsi">
+</datalist>
+<input type="submit">
+</form>
+</body>
+</html>

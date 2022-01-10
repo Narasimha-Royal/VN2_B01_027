@@ -1,0 +1,62 @@
+Operators:
+
+Operators are used to perform operations on variables and values.
+
+
+Types of Operators:
+
+1). Arthemetic Operators
+
+	Arthemetic operators are used with numeric values to perform mathematical operations
+	Ex:	+     ---------		x+y
+		-     ---------		x-y
+		*     ---------		x*y
+		/     ---------		x/y
+		%     ---------		x%y
+		**    ---------		x**y
+		//    ---------		x//y
+
+2). Assignment Operators
+
+	Assignment operators are used to assign values to variables
+	Ex: 	=    ----------		x=3
+		+=   ----------		x+=3
+		-=   ----------		x-=3
+		*=   ----------		x*=3
+		/=   ----------		x/=3
+
+3). Comparision Operators
+
+	Comparison operators are used to compare two values
+	Ex:	==	------		x==y
+		!=	------		x!=y
+		>	------		x>y
+		<	------		x<y
+		>=	------		x>=y
+		<=	------		x<=y
+
+4). Logical Operators
+
+	Logical operators are used to combine conditional statements
+	Ex:	and	-------		x>2 and x>4
+		or	-------		x>2 or x>4
+		not	-------		not(x>2 and x>4)
+
+5). Identity Operators
+
+	Identity operators are used to compare the objects, not if they are equal , but if they are actually the same
+	object, with the same memory location.
+	Ex:	is	-----		x is y
+		is not	-----		x is not y
+
+6). Membership Operators
+
+	Membership operators are used to test if a sequence is presented in an object.
+	Ex:	in	----		x in y
+		not in	----		x not in y
+
+7). Bitwise Operators
+
+	Bitwise operators are used to compare (binary) numbers
+	Ex:	&		AND
+		|		OR

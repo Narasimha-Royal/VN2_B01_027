@@ -1,0 +1,47 @@
+create table employe (
+id serial primary key,
+fname varchar(30),
+lname varchar(25),
+age int,
+salary int
+);
+
+insert into employe (fname,lname,age,salary)
+values ('Ken','Sanchez',22,15000),
+('Terri','Duffy',21,14000),
+('Robert','Tamb',23,16000),
+('Rob','Walt',22,17000),
+('Gail','Erick',21,15000),
+('Joseph','Berg',25,20000),
+('Gigi','Mathew',24,19000),
+('Michale','Raheem',21,16000)
+select * from employe
+
+create table department (
+id serial primary key,
+dept_name varchar(30),
+dept_id int
+)
+insert into department (dept_name,dept_id)
+values ('Web developer',2),
+('System Engineer',5),
+('Tester',6),
+('Excutive',8),
+('Finance',9)
+select * from department
+
+select dept_id, fname, salary, dept_name from employe cross join department
+
+select fname, dept_id from department cross join employe
+
+select fname,salary,dept_name ,dept_id from employe inner join department
+on employe.id=department.dept_id;
+
+select fname,dept_name, dept_id from employe left outer join department 
+on employe.id=department.dept_id
+
+select fname,dept_name, dept_id from employe right outer join department 
+on employe.id=department.dept_id
+
+select fname,dept_name, dept_id from employe full outer join department 
+on employe.id=department.dept_id
