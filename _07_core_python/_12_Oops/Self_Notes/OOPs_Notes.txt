@@ -1,0 +1,80 @@
+Python OOps :
+
+OOPs :-- Object Oriented Programming System
+
+In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. 
+It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. 
+The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that 
+no other part of the code can access this data. 
+
+
+Main Concepts of Object-Oriented Programming :
+
+1. Class
+2. Objects
+3. Methods
+4. Inheritance
+5. Polymorphism
+6. Data Abstraction
+7. Encapsulation
+
+
+
+-----1) Class-----
+
+A class is a collection of objects. A class contains the blueprints or the prototype from which the objects are being created. 
+It is a logical entity that contains some attributes and methods. 
+
+
+-----2) Objects-----
+
+The object is an entity that has a state and behavior associated with it. It may be any real-world object like a mouse, 
+keyboard, chair, table, pen, etc.
+
+An Object consists of :
+
+State :--  It is represented by the attributes of an object. It also reflects the properties of an object.
+
+Behavior :-- It is represented by the methods of an object. It also reflects the response of an object to other objects.
+
+Identity :-- It gives a unique name to an object and enables one object to interact with other objects.
+
+
+
+#################### The __init__ method #######################
+
+The __init__ method is similar to constructor. It is run as soon as an object of a class is instantiated. 
+The method is useful to do any initialization you want to do with your object. 
+
+
+------3) Method -------
+
+The method is a function that is associated with an object. In Python, a method is not unique to class instances.
+Any object type can have methods.
+
+
+------4) Inheritance ------------
+
+Inheritance is the capability of one class to derive or inherit the properties from another class. The class that 
+derives properties is called the derived class or base class and the class from which the properties are being derived 
+is called the base class or parent class.
+
+
+-----5) Polymorphism --------
+
+Polymorphism simply means having many forms. For example, we need to determine if the given species of birds fly or not, 
+using polymorphism we can do this using a single function.
+
+
+-----6) Data Abstraction -----
+
+Data abstraction and encapsulation both are often used as synonyms. Both are nearly synonyms because data abstraction is 
+achieved through encapsulation.Abstraction is used to hide internal details and show only functionalities.
+
+
+-----7) Encapsulation ------
+
+Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). It describes the idea of wrapping 
+data and the methods that work on data within one unit.
+
+

@@ -1,7 +1,7 @@
 print("--------For Loop in Integers with Break Statement--------")
 a = 10
 for i in range(1, a):
-    print(i+i)
+    print(i+1)
 print("--------For Loop with Strings--------")
 b = 'Narasimha'
 for i in b:

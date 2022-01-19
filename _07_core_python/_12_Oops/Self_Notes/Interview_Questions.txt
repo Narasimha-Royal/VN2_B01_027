@@ -1,0 +1,142 @@
+1. What is OOPs?
+
+OOPs stands for representing the Object-Oriented Programming system. Programs are
+treated as a collection of objects in oops. Each object is nothing but an example of a
+class.
+
+
+2. Difference between Procedural programming and OOPs?
+
+Procedural Programming:
+Procedural Programming: is based on functions.
+-It shows the data to the entire program.
+-It does not have scope for code reuse.
+-It follows a the concept of top-down programming.
+-Nature of the language is complicated.
+-It is hard to modify, extend and maintain the code.
+Object-oriented programming:
+-It is based on real-world objects.
+-It encapsulates the data.
+-It provides more scope of code reuse.
+-It follows a bottom-up programming paradigm.
+-It is less complicated in nature, so it is easier to modify, extend and maintain.
+
+
+3. Why use OOPs?
+
+OOPs has clarity in programming. It has flexibility and simplicity in solving complex
+problems. Reuseage of code is easy as Inheritance concept helps to reduce
+redundancy of code. Data and code are bound together by encapsulation. OOPs has
+features for data hiding, so private data can be store and maintain confidentiality.
+Problems can be divided into different parts making it simple to solve. The concept of
+polymorphism has flexibility for that a single entity can have multiple forms.
+
+
+4. What are the basic concepts of OOPs?
+
+The basic concepts of OOPs are:
+Inheritance
+Encapsulation
+Polymorphism
+Abstraction
+
+
+5. What is Encapsulation?
+
+Encapsulation is also a part of OOPs concept. It refers to the bundling of data with the
+methods that operate on that data. It also helps to restrict any direct access to some of
+an object’s components.
+
+
+6. What is Abstraction?
+
+Abstraction is an OOPs concept to build the structure of the real-world objects. It
+“shows” only essential attributes and “hides” unnecessary information from the outside.
+The main focus of abstraction is to hide the unnecessary details from the users. It is
+one of the most important concepts of OOPs.
+
+
+7. What is method overloading?
+
+There is a concept where two or more methods can have the same name. But they
+should have different parameters, different numbers of parameters, different types of
+parameters, or both. These methods are known as overloaded methods and this feature
+is called method overloading.
+
+
+8. What is method overriding?
+
+Method overriding is a concept of object-oriented programming.
+It is a language feature that allows a subclass or child class to provide a specific
+implementation of a method which is already provided by one of its super classes or
+parent classes.
+
+
+9. Types of Inheritance in OOPS
+
+Hybrid Inheritance
+Multiple Inheritance
+Single Inheritance
+Multi-level Inheritance
+Hierarchical Inheritance
+
+
+10. What is an object?
+
+Object: An object is an instance of a class and also It has its own identity and
+behaviour.
+
+
+11. What is Method?
+
+It basically goes for describing the set of instructions and it is also called a procedure.
+
+
+12. What is a class?
+
+Class is a kind of a user-defined data type that contains variables, properties, and
+methods. It also helps to find the properties of an object.
+
+
+13. What are constructors?
+
+The constructor has the same name as the class.
+A constructor is also a special kind of method. It is used to initialize objects of the class.
+
+
+14. Types of constructor
+
+Types of constructor depend upon languages
+Private Constructor
+Default Constructor
+Copy Constructor
+Static Constructor
+Parameterized Constructor
+
+
+15. What is the difference between a class and a structure?
+
+Class: Class is basically a User-defined blueprint from which objects are created. It
+consists of methods ( set of instructions) which are performed on the objects.
+Structure: A structure is also a user-defined collection of variables. Structures are also
+different data types.
+
+
+16. What are the access modifiers?
+
+Access modifiers or access specifiers are the keywords in object-oriented languages. It
+helps to set the accessibility of classes, methods, and other members.
+
+
+17. What are the languages come under oops concept?
+
+Simula is known as the first object-oriented programming language, the most popular
+OOP languages are:
+Java
+JavaScript
+Python
+C++
+Visual Basic . NET.
+Ruby
+Scala
+PHP
