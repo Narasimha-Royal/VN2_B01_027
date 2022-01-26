@@ -55,15 +55,17 @@ print(list1 is list2)
 print(list2)
 print("Two lists : ",list1+list2+list3)
 
+
 class Employee(object):
     
     def __init__(self,id):
-        self.id= id
+        self.id=id
         
     def __add__(self,obj):
         result = self.id + obj.id # 10 + 20
         return result
-        
+
+
 madhu = Employee(10)
 print("Madhu obj ",madhu)
 mani = Employee(20)
@@ -109,7 +111,7 @@ name2 = "Sudhan"
 print("Concat names ",name1+name2)
 print("--------------------------------")
 
-class Point(object):
+class   Point(object):
     def __init__(self, x = 0, y = 0):
         self.x = x
         self.y = y
