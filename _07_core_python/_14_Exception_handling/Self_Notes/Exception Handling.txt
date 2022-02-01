@@ -1,0 +1,73 @@
+
+			---------------------------" Exception Handling "----------------------------
+
+The errors in software development is called "Bugs"
+and process of removing them is called Debugging.
+
+Errors  in a python program 
+1. compile-time errors: syntactical errors found in the code due to program
+which a program fails to complete
+
+2. Run time errors: when PVM does not execute byte code it flags runtime error.
+Runtime errors are not detected by PVM
+
+3.Logical errors: it occurs when programmer using wrong design or formula ,
+it detects by programmer only.
+
+
+1. Arthemetic error
+2. Assertion error
+3.Syntax error
+4.Type error
+5.EOF error
+6.Runtime error
+7.Import Error
+8.Name error
+
+
+Exception : handling of errors called exception and make program robust means strong.Robust program doesnot
+terminate in middle and display appropriate message where error occured
+
+Exception handling: the program in which performing try,except,finally tasks
+
+try:
+     statements (observe where there may  possibility exception ,write in try block.Even error in statement
+     doesnot terminate by PVM allows to except block
+
+ except: exception name
+       statement (write exception name which helps to user to understand where error is in statement )
+
+ finally:
+        statements( in this block closing actions terminate the process whether it is running
+
+
+
+Try and Except Statement – Catching Exceptions
+Try and except statements are used to catch and handle exceptions in Python.
+Statements that can raise exceptions are kept inside the try clause and the statements
+that handle the exception are written inside except clause.
+
+
+Try with Else Clause
+In python, you can also use the else clause on the try-except block which must be present after all the except clauses. 
+The code enters the else block only if the try clause does not raise an exception.
+
+
+Finally Keyword in Python:
+Python provides a keyword finally, which is always executed after the try and except blocks.
+The final block always executes after normal termination of try block or
+after try block terminates due to some exception.
+
+
+Program Execution Flow:
+
+
+Exception didn't happen :  1. Statements before try block
+                           2. Statements in try block(ALL)
+                           3. Statements after except block
+                           
+Exception occured       :  1. Statements before try block
+                           2. Statements in try block,till the line of exception occurance
+                           3. Statements in except block
+                           4. Statements after except block
+

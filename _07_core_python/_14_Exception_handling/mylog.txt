@@ -1,0 +1,19 @@
+ERROR:root:There is an error in prgram
+CRITICAL:root:There is a problem in design
+ERROR:root:There is an error in prgram
+CRITICAL:root:There is a problem in design
+ERROR:root:There is an error in prgram
+CRITICAL:root:There is a problem in design
+ERROR:root:There is an error in prgram
+CRITICAL:root:There is a problem in design
+ERROR:root:There is an error in prgram
+CRITICAL:root:There is a problem in design
+ERROR:root:There is an error in prgram
+CRITICAL:root:There is a problem in design
+ERROR:root:There is an error in prgram
+CRITICAL:root:There is a problem in design
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\VN2_B01_Training\_07_core_python\_14_Exception_handling\Exception_notes_practice.py", line 275, in <module>
+    c = a/b
+ZeroDivisionError: division by zero

@@ -27,6 +27,7 @@ b = Testing("Sai", "Kumar")
 b._second()
 
 print(b._lastname)
+print(a.age)
 
 
 class Tester(Testing):
