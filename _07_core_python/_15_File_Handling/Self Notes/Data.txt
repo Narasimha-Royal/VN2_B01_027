@@ -1,0 +1,6 @@
+Your Name is :royal
+Your Age is :12
+Your Location is :bangalore
+Your Name is :charan
+Your Age is :12
+Your Location is :nel
